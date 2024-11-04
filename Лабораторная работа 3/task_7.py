@@ -7,6 +7,6 @@ def find_common_participants(first_group, second_group, separator=','):
 
 participants_first_group = "Иванов|Петров|Сидоров"
 participants_second_group = "Петров|Сидоров|Смирнов"
-print(list(find_common_participants(participants_first_group, participants_second_group, separator='|')))
+
 # TODO Провеьте работу функции с разделителем отличным от запятой
-print(list(find_common_participants(participants_first_group, participants_second_group)))
+print(list(find_common_participants(participants_first_group, participants_second_group, separator='|')))
